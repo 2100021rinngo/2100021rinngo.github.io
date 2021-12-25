@@ -1,4 +1,4 @@
 # ethicalTree
 
-頑張ってGridでしようとしたんですけど、
-上手くできなかったので方針を変えてFlexで書いていくつもりです。
+GitHub Pagesで公開しています。<br>
+https://2100021rinngo.github.io/
