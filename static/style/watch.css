@@ -22,10 +22,12 @@ main {
     /* text-align: center; */
     
     display: flex;
-    flex-direction: column;
-    /* overflow-y: scroll; */
+    flex-direction: row;
+    overflow-x: scroll;
+    /* overflow-y: hidden; */
 
     width: 1000px;
+    height: 800px;
 }
 
 .work {
