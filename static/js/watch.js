@@ -3,12 +3,14 @@ onload = initialize;
 let header;
 let work;
 let main;
-async function initialize()
+let body;
+function initialize()
 {
     header = document.getElementById("header");
     work = document.getElementById("work");
 
     main = document.getElementsByTagName("main")[0];
+    body = document.getElementsByTagName("body")[0];
 
     reizeWindow();
 }
@@ -22,6 +24,7 @@ async function reizeWindow()
     // work.style.transform = "scale(" + rate + "," + rate + ")";
     main.style.width = `${window.innerWidth}px`;
     header.style.width = `${window.innerWidth}px`;
+    body.style.width = `${window.innerWidth}px`;
 
     console.log(main.style.width);
 }
