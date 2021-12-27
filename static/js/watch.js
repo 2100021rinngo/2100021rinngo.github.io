@@ -26,5 +26,5 @@ async function reizeWindow()
     header.style.width = `${window.innerWidth}px`;
     body.style.width = `${window.innerWidth}px`;
 
-    console.log(main.style.width);
+    // console.log(main.style.width);
 }
